@@ -1,0 +1,19 @@
+<!-- Save in same folder as app.py -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Send WhatsApp Message</title>
+</head>
+<body>
+  <h2>Send WhatsApp Message</h2>
+  <form action="/send" method="post">
+    <label>Phone Number (with +91):</label><br>
+    <input type="text" name="number" placeholder="+91xxxxxxxxxx" required><br><br>
+
+    <label>Message:</label><br>
+    <textarea name="message" rows="4" cols="50" placeholder="Your message..." required></textarea><br><br>
+
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
